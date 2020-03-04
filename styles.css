@@ -1,0 +1,486 @@
+
+body{
+   font-family: 'Merriweather Sans', sans-serif;
+}
+
+.navbar{
+   background-color: #003;
+   padding: 1% 6%;
+}
+
+.navbar-brand{
+   letter-spacing: 4px;
+}
+
+.navbar-nav{
+   padding-top: 1%;
+   padding-bottom: 1%;
+   margin-left: 62%;
+}
+
+.nav-item{
+   text-transform: uppercase;
+   text-align: center;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link:focus{
+   background-color: #28a745;
+   color: #FFF;
+}
+
+ .navbar-toggler:focus{
+      border-color: #28a745;
+ }
+
+ .fa-code{
+    color: #28a745;
+    padding-right: 5%;
+ }
+
+
+ /* showcase Section */
+
+ .showcase{
+    background-image: url('images/bg-img 1.png');
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 20% 0 25% 0;
+}
+
+.showcase h1{
+  font-weight: 700;
+  margin-top: 2%;
+}
+
+.showcase a{
+  margin-top: 3%;
+  padding: 2% 5%;
+}
+
+.showcase-branding{
+   letter-spacing: 4px;
+   margin-left: 15%;
+   margin-right: 15%;
+}
+
+.showcase-branding span{
+   color: #28a745;
+}
+
+
+/* About Section */
+
+.about-section{
+   padding: 0 5%;
+}
+
+.services-header{
+   background-color: #003;
+   color: #FFF;
+   padding: 1% 5%;
+   max-width: 25%;
+   margin-left: -5%;
+   text-align: center;
+}
+
+.services h5{
+   font-weight: bolder;
+}
+
+.services{
+   text-align: center;
+   margin-top: 0;
+   margin-bottom: 5%;
+}
+
+.services-img {
+   max-width: 40%;
+   margin-bottom: 20%;
+   color: #563d7c;
+}
+
+
+.about-body{
+   margin-top: 10%;
+}
+
+.about-header {
+   letter-spacing: 3px;
+   text-align: center;
+   background-color: #28a745;
+   margin-bottom: 3%;
+   color: #FFF;
+   padding: 2% 5%;
+}
+
+.about-subheading{
+   background-color: #003;
+   color: #FFF;
+   padding: 1% 5%;
+   max-width: 25%;
+   margin-left: -5%;
+   text-align: center;
+}
+
+.about-img{
+   max-width: 25%;
+   border-radius: 100%;
+   float: left;
+   margin-top: -6%;
+   margin-right: 2%;
+}
+
+.about-text{
+   line-height: 1.8;
+}
+
+
+/* Skillset section */
+.skills{
+   margin-top: 8%;
+   margin-bottom: 5%;
+   text-align: center;
+}
+
+.skills-header{
+   text-align: center;
+   color: #FFF;
+   margin-bottom: 5%;
+   letter-spacing: 4px;
+   background-color: #28a745;
+   padding:3% 5%;
+}
+
+.skill-img{
+   max-width: 50%;
+   margin-bottom: 20%;
+}
+
+
+/* Portfolio Section */
+.portfolio-header{
+   padding-top: 10%;
+   text-align: center;
+   color: #FFF;
+   letter-spacing: 4px;
+   background-color: #28a745;
+   padding: 2% 5%;
+}
+
+.projects{
+   padding: 3% 5%;
+}
+
+.card{
+   box-shadow: 1px 2px rgb(224, 215, 215);
+}
+
+.card .btn-success:hover{
+   color: #28a745;
+   background-color: #FFF;
+}
+
+
+
+/* CTA section */
+
+.CTA{
+   margin-left: 25%;
+   margin-right: 25%;
+   margin-top: 5%;
+   padding-bottom: 10%;
+}
+
+.CTA-header{
+   margin-bottom: 5%;
+   background-color: #28a745;
+   padding: 2% 5%;
+   text-align: center;
+   letter-spacing: 4px;
+   margin-bottom: 0%;
+}
+
+.details{
+   background-color: rgb(14, 14, 82);
+   padding: 5%;
+   color: #FFF;
+}
+
+.details h5{
+   font-weight: bolder;
+   margin-bottom: 10%;
+}
+
+.details p{
+   margin-top: 9%;
+}
+
+.details .fas{
+   margin-right: 3%;
+   color: #28a745;
+}
+
+.fa-envelope{
+   margin-left: 2px;
+}
+
+input{
+   margin-bottom: 5%;
+}
+
+.form{
+   background-color: #28a745;
+   padding-top: 5%;
+}
+
+.form-btn{
+   margin-top: 5%;
+   padding: 4%;
+   background-color: rgb(14, 14, 82);
+   color: #FFF;
+}
+
+.form-btn:hover{
+   color: #FFF;
+   background-color: #003;
+}
+
+
+/* Footer Section */
+
+.footer{
+   background-color: #003;
+   color: #FFF;
+   padding-top: 5%;
+   padding-bottom: 10%;
+}
+
+.footer p {
+   margin-top: 3%;
+}
+
+.footer h6{
+   margin-top: 4.5%;
+   margin-bottom: 5%;
+   text-align: center;
+   letter-spacing: 3px;
+}
+
+.footer-links{
+   display: block;
+   color: #FFF;
+   text-align: center;
+   padding-left: 0%;
+   padding-right: 1%;
+}
+.footer-links:hover{
+   color: #28a745;
+   text-decoration: none;
+}
+
+.socials{
+   margin-top: 3%;
+   margin-left: 5%;
+   text-align: center;
+}
+
+.social-links{
+   color: #FFF;
+   margin-right: 5%;
+   padding: 1.5%;
+   border-radius: 100%;
+
+}
+
+.social-links:hover{
+   color: #28a745;
+}
+
+.error-msg{
+   text-align: center;
+   background-color: rgb(248, 4, 4);
+   max-width: 50%;
+   margin-left: 20%;
+   padding: 2% 5%;
+   margin-bottom: 2%;
+}
+
+.success-msg {
+   text-align: center;
+   background-color: rgb(11, 156, 11);
+   max-width: 50%;
+   margin-left: 20%;
+   padding: 2% 5%;
+   margin-bottom: 2%;
+}
+
+
+
+/* Media Query */
+@media screen and (max-width: 990px){
+   .navbar-nav {
+      padding-top: 1%;
+      padding-bottom: 1%;
+      
+      margin: auto;
+   }
+
+   .showcase {
+      background-image: url('images/bg-img 2.png');
+      background-repeat: no-repeat;
+      text-align: center;
+      padding: 20% 0 25% 0;
+   }
+
+   .showcase h1 {
+      font-weight: 700;
+      margin-top: 2%;
+   }
+
+   .showcase a {
+      margin-top: 3%;
+      padding: 2% 5%;
+   }
+
+   .showcase-branding {
+      letter-spacing: 1px;
+      margin-left: -10%;
+      margin-right: -10%;
+   }
+
+   .showcase-branding span {
+      color: #28a745;
+   }
+
+
+   /* About Section */
+
+   .about-section {
+      padding: 0 5%;
+   }
+
+   .services-header {
+      background-color: #003;
+      color: #FFF;
+      padding: 1% 2%;
+      max-width: 60%;
+      margin-left: -10%;
+      margin-bottom: 5%;
+      text-align: center;
+   }
+
+   .services h5 {
+      font-weight: bolder;
+   }
+
+   .services {
+      text-align: center;
+      margin-top: 0;
+      margin-bottom: 5%;
+   }
+
+   .services-img {
+      max-width: 30%;
+      margin-bottom: 5%;
+      color: #563d7c;
+   }
+
+   .services-text{
+      margin-bottom: 15%;
+   }
+
+   .about-body {
+      margin-top: 10%;
+   }
+
+   .about-header {
+      letter-spacing: 3px;
+      text-align: center;
+      background-color: #28a745;
+      margin-bottom: 3%;
+      color: #FFF;
+      padding: 3% 5%;
+   }
+
+   .about-subheading {
+      background-color: #003;
+      color: #FFF;
+      padding: 1% 5%;
+      max-width: 50%;
+      margin-top: 15%;
+      margin-left: -5%;
+      text-align: center;
+   }
+
+   .about-img {
+      max-width: 40%;
+      border-radius: 100%;
+      float: left;
+      margin-top: -3%;
+      margin-right: 2%;
+   }
+
+   .about-text {
+      line-height: 2;
+   }
+
+   /* Skillset section */
+   .skills {
+      margin-top: 8%;
+      margin-bottom: 10%;
+      text-align: center;
+   }
+
+   .skills-header {
+      text-align: center;
+      color: #FFF;
+      margin-bottom: 5%;
+      letter-spacing: 4px;
+      background-color: #28a745;
+      padding: 3% 5%;
+   }
+
+   .skill-img {
+      max-width: 60%;
+      margin-bottom: 20%;
+   }
+
+
+}
+
+
+/* Media Queries */
+@media screen and (max-width: 740px){
+   .showcase {
+      background-image: url('images/bg-img 2.png');
+      background-repeat: no-repeat;
+      text-align: center;
+      padding: 20% 0 25% 0;
+   }
+
+   .showcase h1 {
+      font-weight: 300;
+      margin-top: 2%;
+   }
+
+   .showcase a {
+      margin-top: 3%;
+      padding: 2% 5%;
+   }
+
+   .showcase-branding {
+      letter-spacing: 1px;
+      margin: 7% 5%;
+   }
+
+   .skill-img {
+      max-width: 40%;
+      margin-bottom: 10%;
+   }
+
+
+   .projects{
+      margin-top: 3%;
+   }
+}
